@@ -1,0 +1,28 @@
+h1{
+    color: red;
+    background-color: aqua;
+}
+#Reference{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    background-color:yellow;
+    border-radius: 2px black ;
+    border-style: solid;
+}
+
+/* * in front of the bracket represents Global Element/Change in the whole canvas  */
+
+/* *{
+    background-color: deepskyblue;
+} */
+
+/* ' . ' is used when we want to style Classes */
+
+.Division1{
+    background-color: lightcoral; 
+    padding-top: 5px; 
+    padding-left: 500px;
+    padding-bottom: 5px; 
+    padding-right: 10px;
+}
