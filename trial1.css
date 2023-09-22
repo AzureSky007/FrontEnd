@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+
+#Div1{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+#form1{
+    font-size: 200%;
+}
+
+#user{
+    width: 25%;
+    height: 20%;
+}
+
+#pass{
+    width: 25%;
+    height: 60%;
+}
+
+#email{
+    width: 25%;
+}
