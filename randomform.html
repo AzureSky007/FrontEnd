@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Form</title>
+    <script>
+        function validate(){
+            var text = document.getElementById("opt1").value;
+            var email = document.getElementById("opt2").value;
+            var password = document.getElementById("opt3").value;
+            var color = document.getElementById("opt4").value;
+
+            
+        }
+    </script>
 </head>
+
 <body>
     <h1>Just a random form for testing purposes</h1>
 
     <p>Some fields are required, please fill in</p>
-    <form>
+    <form method="post" action="trial1_2.html"> 
         <label for="opt1">Input Text</label>
         <input type="text" id="opt1" name="opt1" placeholder="Val 1">
+        <br>
 
         <label for="opt2">Input Email</label>
-        <input type="email" id="opt2" name="opt2" placeholder = "Val 2" value="some@email">
+        <input type="email" id="opt2" name="opt2" placeholder = "Val 2" >
+        <br>
+
+        <label for="opt2">Input Email</label>
+        <input type="email" id="opt2" name="opt2" placeholder = "Val 2" >
         <br>
 
         <label for="opt3">Input Password</label>
-        <input type="password" id="opt3" name="opt3" placeholder="Val 3">
+        <input type="email" id="opt3" name="opt3" placeholder="Val 3">
+        <br>
 
         <label for="opt4">Input Color</label>
         <input type="color" id="opt4" name="opt4">
+        <br>
+        <br>
 
-        <input type="submit" value="submit">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
+
